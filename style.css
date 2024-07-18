@@ -472,8 +472,28 @@ input::placeholder {
     width: 100%;
     height: 170px;
   }
-  .bmi-form{
+  .bmi-form {
     flex-direction: column;
+    padding: 57px 29px 57px 29px;
+    gap: 48px;
+  }
+  .heading-content {
+    width: 92%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 32px;
+  }
+  .bmi-calculator-heading {
+    font-size: 32px;
+  }
+  .chart {
+    width: 100%;
+  }
+  .bmi-form h1 {
+    font-size: 16px;
+  }
+  .chart table {
+    margin-top: 25px;
   }
 }
 

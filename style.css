@@ -163,7 +163,51 @@ header {
   transform: translate(4%, 49%);
   font-size: 15px;
 }
-
+/* Change your habit */
+#change-habit {
+    padding: 57px 190px 0px 190px;
+    margin-bottom: 25px;
+  }
+  .change-habit h1 {
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+  }
+  .change-habit .main-head-conent {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    width: 47%;
+    margin: auto;
+    margin-bottom: 54px;
+  }
+  .four-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .four-cards img {
+    width: 152px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+  }
+  .four-cards h3 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+  }
+  .four-cards p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 8px;
+  }
+  
 
 /* Responsive */
 @media only screen and (max-width: 576px) {
@@ -232,7 +276,27 @@ header {
     width: 135px;
     height: 44px;
   }
-
+  #change-habit {
+    padding: 29px 29px 0px 29px;
+    margin-bottom: 25px;
+  }
+  .change-habit h1 {
+    font-size: 32px;
+  }
+  .change-habit .main-head-conent {
+    width: 95%;
+  }
+  .four-cards {
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .four-cards p {
+    width: 65%;
+  }
  
 }
 
@@ -251,6 +315,9 @@ header {
   }
   .up {
     width: 166px;
+  }
+  #change-habit {
+    padding: 57px 44px 0px 44px;
   }
   
 }

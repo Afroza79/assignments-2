@@ -59,6 +59,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 116px;
 }
 .left h1 {
   color: rgb(255, 255, 255);
@@ -493,6 +494,117 @@ input::placeholder {
   top: 234px;
   color: rgba(255, 255, 255, 0.5);
   left: 20px;
+}
+
+/* Choose Us */
+#choose-us {
+  padding: 57px 190px 0px 190px;
+  margin-bottom: 25px;
+}
+.choose-us-heading h1 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  text-align: center;
+}
+.choose-us-heading p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.choose-us-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 48px;
+}
+.choose-us-card1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 25%;
+  padding: 25px 15px;
+  border-radius: 18px;
+}
+.choose-us-card1:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.choose-us-card1 h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.choose-us-card1 p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+}
+.choose-us-card1 .icon i {
+  font-size: 50px;
+  margin-bottom: 24px;
+  color: rgb(230, 83, 60);
+}
+/* Footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#footer {
+  padding: 57px 190px 0px 190px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 83px;
+  align-items: center;
+  margin-bottom: 44px;
+}
+.footer-card1 {
+  width: 50%;
+}
+.footer-card2 {
+  width: 25%;
+}
+.footer-card3 {
+  width: 25%;
+}
+.footer-card1 h1 {
+  color: rgb(230, 83, 60);
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+.footer-card1 p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-card2 h1 {
+  color: rgb(255, 255, 255);
+}
+.footer-card2 ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+  font-size: 16px;
+}
+.footer-card3 h1 {
+  color: rgb(255, 255, 255);
+}
+.footer-card3 ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+  font-size: 16px;
+}
+#footer hr {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
 
 /* Responsive */

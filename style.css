@@ -229,10 +229,6 @@ header {
 .right-image {
   width: 560px;
   height: 312px;
-  /* background-image: url(./images/run.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   border-radius: 18px;
 }
 .right-image img {
